@@ -194,6 +194,18 @@ section[id]{scroll-margin-top:62px}.v4-grid{display:grid;grid-template-columns:r
 @media(max-width:900px){.v4-grid{grid-template-columns:1fr}}
 @media(max-width:640px){.bar-in{gap:8px}.bar nav{display:flex}.bar-in>.badge{display:none}.bar nav a{padding:5px 8px;font-size:12px}.theme{padding:0 8px}.v4-meta{font-size:10px}}
 
+/* locked blocks: FedWatch card + megacap strip (do not remove) */
+.vf{display:inline-block;font-size:10.5px;font-weight:600;padding:0 6px;border-radius:4px;border:1px solid var(--line2);white-space:nowrap;vertical-align:1px}
+.vf.ok{color:var(--acc);border-color:color-mix(in srgb,var(--acc) 50%,transparent)}
+.vf.no{color:var(--gold);border-color:color-mix(in srgb,var(--gold) 50%,transparent)}
+.fedgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:18px}.fedgrid .kv{margin-top:0}
+.fedlist{list-style:none;margin:0;padding:0;font-size:12.5px;color:var(--text2)}
+.fedlist li{padding:6px 0;border-top:1px solid var(--line);line-height:1.6}
+.fedlist li:first-child{border-top:0}
+.fedlist b{color:var(--text)}
+@media(max-width:900px){.fedgrid{grid-template-columns:1fr}}
+#megacap .chips{margin-bottom:8px}
+
 .latest-cta{display:block;margin-top:22px;padding:22px 24px;text-decoration:none;border-left:3px solid var(--acc)}
 .latest-cta:hover{background:var(--panel2)}
 .latest-cta .kicker{font-size:12px;color:var(--acc);font-weight:700;letter-spacing:.08em}
@@ -219,14 +231,14 @@ section[id]{scroll-margin-top:62px}.v4-grid{display:grid;grid-template-columns:r
 <main id="main">
 <a class="card latest-cta" href="/daily-news/latest/">
 <div class="kicker">最新晨報 · 固定網址</div>
-<h2>台美股晨報 2026-11-16（一）</h2>
-<p>資料截至：台股 11/13 收盤、美股 11/13 收盤（台北 11/14 05:00）、新聞至 11/14 23:00</p>
+<h2>台美股晨報 2026-11-16（一）｜市場情報員 × 廖宇祥</h2>
+<p>市場情報員 × 廖宇祥</p>
 <span class="go">開啟最新晨報 →</span>
 </a>
 <section class="section">
 <div class="sh"><h2>過去晨報</h2><div class="note">由新到舊</div></div>
 <div class="card archive-list">
-<a class="archive-row" href="/daily-news/reports/2026-11-16/"><div><div class="archive-when num">2026-11-16（一） <span class="badge">最新</span></div><div class="archive-title">台美股晨報 2026-11-16（一）</div><div class="archive-sub">資料截至：台股 11/13 收盤、美股 11/13 收盤（台北 11/14 05:00）、新聞至 11/14 23:00</div></div><span class="archive-go">閱讀晨報</span></a>
+<a class="archive-row" href="/daily-news/reports/2026-11-16/"><div><div class="archive-when num">2026-11-16（一） <span class="badge">最新</span></div><div class="archive-title">台美股晨報 2026-11-16（一）｜市場情報員 × 廖宇祥</div><div class="archive-sub">市場情報員 × 廖宇祥</div></div><span class="archive-go">閱讀晨報</span></a>
 </div>
 <p class="note-box">本站為私人晨報存檔，請勿公開轉發網址。情勢分析，非投資建議。</p>
 </section>
